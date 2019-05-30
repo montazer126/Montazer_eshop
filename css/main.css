@@ -1,0 +1,9 @@
+.wrapper{
+    margin: 10px auto;
+    width: 90%;
+}
+/* header */
+.header{
+    background-color: #232f3e;
+    border-radius: 10px 10px 0 0;
+}
