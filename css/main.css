@@ -6,4 +6,29 @@
 .header{
     background-color: #232f3e;
     border-radius: 10px 10px 0 0;
+    color: #fff
+}
+.topinfo {
+    color: #bcbdc7;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    border-bottom: 1px solid #bcbdc7;
+}
+.header a{
+    color: #bcbdc7;
+    transition: all 0.3s ease-in-out;
+}
+.header a:hover{
+    color: #fff;
+}
+.regester {
+    display: flex;
+}
+.regester>li>a{
+    padding: 5px 15px;
+    display: block;
+}
+.language {
+    padding: 5px 0 0 15px;
 }

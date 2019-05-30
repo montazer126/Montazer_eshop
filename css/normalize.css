@@ -5,6 +5,7 @@ html {
 ul {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 a {
@@ -18,6 +19,7 @@ a {
 body {
     box-sizing: border-box;
     margin: 0;
+    font-family: iransans;
 }
 
 h2 {
