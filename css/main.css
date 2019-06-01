@@ -48,6 +48,7 @@
 
 .header_info {
     padding: 30px;
+    border-bottom: 1px solid #303e4f;
 }
 
 .searchbox {
@@ -88,7 +89,72 @@
     font-size: 2.5em;
     padding: 0 0.5em;
 }
-.carticon>i{
+
+.carticon>i {
     background-color: #F4A137;
-    padding: 0.2em;;
+    padding: 0.2em;
+    ;
+}
+
+.mainnavlist {
+    position: relative;
+}
+
+.mainnavlink {
+    padding: 15px 15px;
+    font-size: 0.8em;
+    position: relative;
+}
+
+.mainnavlist_item:hover>.submenu {
+    display: block;
+}
+.submenu {
+    display: none;
+    background-color: red;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+}
+
+.hotcategory::before{
+    content: ' ';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -15px;
+    right: 30%;
+    background-image: url(../images/Icons/hot.png);
+}
+
+
+
+.submenucontaner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.submenuimage {
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+}
+
+.submenulist {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: flex-start;
+}
+
+.submenulistitem {
+    width: 25%;
+}
+
+.submenulink {
+    padding: 0 15px;
+    font-size: 0.8em;
 }
