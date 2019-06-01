@@ -35,3 +35,10 @@ h2 {
 .clearfix::after {
     clear: both;
 }
+.flex {
+    display: flex;
+}
+select,
+input {
+    font-family: inherit;
+}
