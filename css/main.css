@@ -315,3 +315,10 @@
     opacity: 1;
     top: 50%;
 }
+.baner{
+padding: 10px;
+}
+.baner_img {
+    width: 100%;
+    display: block;
+}
