@@ -325,3 +325,31 @@ padding: 10px;
 .newproductitem{
     width: 25%;
 }
+.collections ul li{
+    width: 16.5%;
+    flex-grow: 1;
+}
+.collectionitem{
+    background-color: #eee;
+    margin: 10px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+.collectionitem:hover{
+    border-color: #F4A137;
+    background-color: #fff;
+}
+.collectionlink{
+    border-bottom: 3px solid #F4A137;
+    position: relative;
+    display: block;
+    color: #555555;
+}
+.collectiondetailsinfo{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
