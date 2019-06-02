@@ -20,6 +20,9 @@
     color: #fff;
     padding:3px 25px;
 }
+.btn_default:hover{
+    background-color: #444;
+}
 
 /* effects */
 .overly_img{

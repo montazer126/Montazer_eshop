@@ -212,36 +212,44 @@
     position: relative;
     padding: 10px;
 }
-.hotselldetail:hover{
+
+.hotselldetail:hover {
     box-shadow: 0 0 10px 0 silver;
 }
-.hotsellL_img{
+
+.hotsellL_img {
     width: 100%;
 }
-.hotsellL_btn{
+
+.hotsellL_btn {
     position: absolute;
     top: 0;
     right: 40%;
     opacity: 0;
     transition: all 0.1s ease-in-out;
 }
-.hotsellL_btn:hover{
+
+.hotsellL_btn:hover {
     background-color: #444;
 }
-.hotselldetail:hover .hotsellL_btn{
+
+.hotselldetail:hover .hotsellL_btn {
     opacity: 1;
     top: 30%;
 }
-.hotseelldetailsubimglist>li{
+
+.hotseelldetailsubimglist>li {
     border: 1px solid #bcbdc7;
     margin: 5px;
     width: 80px;
     height: 80px;
 }
-.hotseelldetailsubimglist>li img{
+
+.hotseelldetailsubimglist>li img {
     width: 100%;
     height: 100%;
 }
+
 .hotselllist {
     flex-grow: 3;
     width: 60%;
@@ -266,27 +274,28 @@
     width: 100%;
     padding: 20px;
 }
-.hotselllistinfo>h3>a,
-.hotselldetail>h3>a{
+
+.hotselllistinfo>h3>a, .hotselldetail>h3>a {
     color: #303e4f;
 }
-.hotselllistinfo>h3>a:hover,
-.hotselldetail>h3>a:hover
-{
+
+.hotselllistinfo>h3>a:hover, .hotselldetail>h3>a:hover {
     color: #F4A137;
 }
+
 .hotsellaction {
     margin: 10px 0 10px 0;
 }
 
-.hotselllistinfo>span,
-.hotselldetail>span {
+.hotselllistinfo>span, .hotselldetail>span {
     color: red;
 }
-.hotsellimageoverly{
+
+.hotsellimageoverly {
     position: relative;
     overflow: hidden;
-    }
+}
+
 .hotselloverly {
     position: absolute;
     top: 100%;
@@ -294,62 +303,164 @@
     opacity: 0;
     transition: all 0.1s ease-in-out;
 }
-.hotselllistinfo:hover .hotselloverly{
+
+.hotselllistinfo:hover .hotselloverly {
     opacity: 1;
     top: 0;
 }
+
 .hotselllistinfo:hover {
     box-shadow: 0 0 10px 0 silver;
 }
-.hotsellbtn{
+
+.hotsellbtn {
     position: absolute;
     top: -100%;
     right: 23%;
     opacity: 0;
     transition: all 0.1s ease-in-out;
 }
-.hotsellbtn:hover{
+
+.hotsellbtn:hover {
     background-color: #444;
 }
-.hotselllistinfo:hover .hotsellbtn{
+
+.hotselllistinfo:hover .hotsellbtn {
     opacity: 1;
     top: 50%;
 }
-.baner{
-padding: 10px;
+
+.baner {
+    padding: 10px;
 }
+
 .baner_img {
     width: 100%;
     display: block;
 }
-.newproductitem{
+
+.newproductitem {
     width: 25%;
 }
-.collections ul li{
+
+.collections ul li {
     width: 16.5%;
     flex-grow: 1;
 }
-.collectionitem{
+
+.collectionitem {
     background-color: #eee;
     margin: 10px;
     border: 1px solid transparent;
     transition: all 0.2s ease-in-out;
 }
-.collectionitem:hover{
+
+.collectionitem:hover {
     border-color: #F4A137;
     background-color: #fff;
 }
-.collectionlink{
+
+.collectionlink {
     border-bottom: 3px solid #F4A137;
     position: relative;
     display: block;
     color: #555555;
 }
-.collectiondetailsinfo{
+
+.collectiondetailsinfo {
     position: absolute;
     top: 5px;
     right: 0;
     display: block;
     text-align: center;
     width: 100%;
+}
+
+.hotpro {
+    background-color: #eee;
+}
+
+.hotprotitle {
+    border-bottom: 1px solid #bcbdc7;
+    position: relative;
+    margin: 20px 25px 0 0;
+}
+
+.hotprotitle::after {
+    content: ' ';
+    background-color: #F4A137;
+    position: absolute;
+    height: 1px;
+    width: 130px;
+    top: 30px;
+    right: 0;
+}
+
+.hotproitem {
+    width: 25%;
+    flex-grow: 1;
+}
+
+.hotprocantaner {
+    margin: 20px;
+    border: 1px solid #eee;
+}
+
+.hotproimg {
+    position: relative;
+    margin: 5px;
+}
+.hotproimg:hover img{
+    opacity: 0.9;
+}
+.hotproimg a {
+    position: absolute;
+    bottom: 28px;
+    left: 20px;
+    font-size: 0.8em;
+}
+
+.hotproimg img {
+    width: 100%;
+}
+
+.hotprolistlink::before {
+    content: ' ';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #444;
+    top: 10px;
+    right: -10px;
+    display: block;
+}
+
+.hotprolistlink:hover::before {
+    background-color: #F4A137;
+}
+
+.prodetails {
+    margin: 10px;
+}
+
+.prodetails h4 {
+    margin: 0;
+}
+
+.prodetailtitle {
+    color: #444;
+}
+
+.prodetailtitle:hover, .hotprolistlink:hover {
+    color: #F4A137;
+}
+
+.hotprolistlink {
+    color: #444;
+    font-size: 0.8em;
+    position: relative;
+    display: block;
+}
+.btn{
+    padding: 0 8px !important;
 }
