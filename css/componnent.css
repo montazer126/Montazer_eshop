@@ -1,0 +1,22 @@
+.btn {
+    border: 1px solid #ddd;
+    color: rgb(27, 27, 27);
+    padding: 9px 14px 5px 14px;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn_solid:hover {
+    color: #fff;
+    background-color: #F4A137;
+    border-color: #F4A137;
+}
+
+.btn_empty:hover {
+    color: #F4A137;
+    border-color: #F4A137;
+}
+.btn_default{
+    background-color: #F4A137;
+    color: #fff;
+    padding:3px 25px;
+}

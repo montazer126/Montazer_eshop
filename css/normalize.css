@@ -10,6 +10,7 @@ ul {
 
 a {
     text-decoration: none;
+    transition: all 0.1s ease-in-out;
 }
 
 *, *::after, *::before {
@@ -24,6 +25,10 @@ body {
 
 h2 {
     margin: 0.8em 0;
+}
+h3{
+    margin: 0;
+    padding: 0;
 }
 
 .clearfix::before,
